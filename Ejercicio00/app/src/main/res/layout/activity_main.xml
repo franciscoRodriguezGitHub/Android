@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fran9.ejercicio00.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:weightSum="1"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             >
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio0"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="Nombre"
+                android:inputType="textPersonName" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/btnPulsado1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="Saludo"
+                    android:text="Saludo1" />
+                <Button
+                    android:id="@+id/btnPulsado2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saludo2" />
+            </LinearLayout>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio1"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <EditText
+                    android:id="@+id/txtNumero1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="numero1" />
+                <EditText
+                    android:id="@+id/txtNumero2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="numero2" />
+            </LinearLayout>
+             <Button
+                 android:id="@+id/btnSumar"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Sumar"
+                 android:gravity="center"/>
+             <TextView
+                 android:id="@+id/labelResultado"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Sumar"
+                 android:textSize="19sp"
+                 android:gravity="center"
+                 />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio2"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+            <Button
+                android:id="@+id/btnColorRojo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rojo"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnColorAzul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azul"
+                android:layout_gravity="center"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio3"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:gravity="center"
+                 >
+                 <Button
+                     android:id="@+id/btnIzquierda"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="I" />
+                 <Button
+                     android:id="@+id/btnDerecha"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="D" />
+             </LinearLayout>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio4"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+            <Button
+                android:id="@+id/btnMas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_gravity="center"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio5"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+
+             <ImageView
+                 android:id="@+id/imageView"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 app:srcCompat="@drawable/imagen1" />
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:gravity="center"
+                 >
+                 <Button
+                     android:id="@+id/btnAtras"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="atras" />
+                 <Button
+                     android:id="@+id/btnSiguiente"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="sigueinte" />
+             </LinearLayout>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio ViewFlipper"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+                 <ViewFlipper
+                     android:id="@+id/simpleViewFlipper"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content">
+                     <ImageView
+                         android:id="@+id/imageView1"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         app:srcCompat="@drawable/imagen1" />
+                     <ImageView
+                         android:id="@+id/imageView2"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         app:srcCompat="@drawable/imagen2" />
+                     <ImageView
+                         android:id="@+id/imageView3"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         app:srcCompat="@drawable/imagen3" />
+                 </ViewFlipper>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:gravity="center"
+                 >
+                 <Button
+                     android:id="@+id/btnAtras2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="atras" />
+                 <Button
+                     android:id="@+id/btnSiguiente2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="sigueinte" />
+             </LinearLayout>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:text="Ejercicio Tag"
+                 android:gravity="center"
+                 android:textSize="19sp"/>
+                 <ImageView
+                     android:id="@+id/ImagenTag"
+                     android:tag="imagen2"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/imagen1" />
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="horizontal"
+                     android:gravity="center">
+                     <ImageButton
+                         android:id="@+id/ImgBtnAnt"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@android:drawable/ic_media_previous"/>
+                     <ImageButton
+                         android:id="@+id/ImgBtnSgn"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@android:drawable/ic_media_next"/>
+
+                 </LinearLayout>
+
+
+
+     </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
