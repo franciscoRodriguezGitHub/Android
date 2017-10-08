@@ -1,65 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.franrod.ejercicio01.MainActivity"
-    android:orientation="vertical">
-    <TextView
+    tools:context="com.example.franrod.ejercicio01.MainActivity">
 
+
+    <TextView
+        android:id="@+id/ejercici01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ejercicio1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
         />
     <TextView
         android:id="@+id/txtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Holaaaaaaa"
+        android:layout_centerHorizontal="true"
         />
-
     <CheckBox
         android:id="@+id/checkBox1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rojo" />
-
+        android:text="Rojo"
+        android:layout_below="@+id/txtNombre"
+        />
     <CheckBox
         android:id="@+id/checkBox2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Letra enana" />
+        android:text="Letra enana"
+        android:layout_below="@id/checkBox1"
+        android:layout_toRightOf="@id/checkBox1"
+        />
 
     <CheckBox
         android:id="@+id/checkBox3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Letra enorme" />
+        android:text="Letra enorme"
+        android:layout_below="@id/checkBox2"
+        android:layout_alignRight="@id/checkBox2"
+        />
 
     <CheckBox
         android:id="@+id/checkBox4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Negrita" />
+        android:text="Negrita"
+        android:layout_below="@id/checkBox3"
+        android:layout_toRightOf="@id/checkBox3"
+        />
     <CheckBox
         android:id="@+id/checkBox5"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="cambiar contenido" />
+        android:text="cambiar contenido"
+        android:layout_below="@id/checkBox4"
+        android:layout_alignLeft="@id/checkBox4"/>
     <TextView
-
+        android:id="@+id/ejercicio02"
+        android:layout_below="@id/checkBox5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ejercicio2"
+        android:layout_centerHorizontal="true"
         />
     <EditText
+        android:layout_below="@id/ejercicio02"
+        android:layout_alignParentLeft="true"
         android:id="@+id/txtNumero1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:hint="numero1" />
     <EditText
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ejercicio02"
         android:id="@+id/txtNumero2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,11 +88,11 @@
         android:hint="numero2" />
     <RadioGroup
         android:id="@+id/radioGroup1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        android:layout_below="@id/txtNumero2">
         <RadioButton
+            android:layout_below="@id/txtNumero2"
             android:id="@+id/radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,28 +100,35 @@
             android:text="Suma" />
 
         <RadioButton
+            android:layout_below="@id/radio0"
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Restar" />
+            android:text="Restar"
+            />
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/radio1"
             android:text="Multiplicar" />
+
         <RadioButton
             android:id="@+id/radio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/radio2"
             android:text="Dividir" />
     </RadioGroup>
     <TextView
+        android:layout_below="@id/radioGroup1"
         android:id="@+id/txtResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resultado"
+        android:layout_centerHorizontal="true"
         />
 
 
-</LinearLayout>
+</RelativeLayout>

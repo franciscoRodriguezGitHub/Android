@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity
         //Borra la selección. Cuando se borra la selección,
         // se selecciona ningún botón de opción en este grupo
         // y getCheckedRadioButtonId()devuelve un valor nulo.
-       // rbgroup.clearCheck();
+        // rbgroup.clearCheck();
         /* Le añado el evento setOnCheckedChangeListener */
         rbgroup.setOnCheckedChangeListener(this);
 
@@ -102,11 +102,11 @@ public class MainActivity extends AppCompatActivity
         int aux1 = Integer.valueOf(txtNumero1.getText().toString());
         int aux2 = Integer.valueOf(txtNumero2.getText().toString());
         int operacion;
-       // switch (checkedId){
-            switch (rg.getCheckedRadioButtonId()){
+        // switch (checkedId){
+        switch (rg.getCheckedRadioButtonId()){
             case R.id.radio0:
-                 operacion = aux1 + aux2;
-                 Resultado.setText(String.valueOf(operacion));//suma
+                operacion = aux1 + aux2;
+                Resultado.setText(String.valueOf(operacion));//suma
                 break;
             case R.id.radio1:
                 operacion = aux1 - aux2;
