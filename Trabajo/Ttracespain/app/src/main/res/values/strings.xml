@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ttracespain</string>
+    <string name="title_activity_sample">Sample activity</string>
+
+    <string name="wait_write_dialog_title">Escribe en la etiqueta</string>
+    <string name="wait_write_dialog_text">Acerca la etiqueta</string>
+    <string name="tag_written_toast">Escribiendo en la etiqueta</string>
+    <string name="cancel">Cancel</string>
+</resources>
