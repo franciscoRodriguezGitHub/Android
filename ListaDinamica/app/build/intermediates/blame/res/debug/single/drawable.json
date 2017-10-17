@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alarm48x48.png",
+        "source": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\src\\main\\res\\drawable\\alarm48x48.png"
+    },
+    {
+        "merged": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compass48x48.png",
+        "source": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\src\\main\\res\\drawable\\compass48x48.png"
+    },
+    {
+        "merged": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar48x48.png",
+        "source": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\src\\main\\res\\drawable\\calendar48x48.png"
+    },
+    {
+        "merged": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.png",
+        "source": "C:\\Users\\fjrodriguez\\Desktop\\GitHub\\Android\\ListaDinamica\\app\\src\\main\\res\\drawable\\delete.png"
+    }
+]
